@@ -1,0 +1,43 @@
+{
+    "name": "ink-focus",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "engines": {
+        "node": ">=10"
+    },
+    "repository": "cAttte/ink-focus",
+    "scripts": {
+        "build": "babel src --out-dir dist",
+        "build:examples": "babel examples --out-dir examples/dist",
+        "watch": "babel src --out-dir dist --watch",
+        "watch:examples": "babel examples --out-dir examples/dist"
+    },
+    "dependencies": {
+        "keypress": "^0.2.1"
+    },
+    "peerDependencies": {
+        "ink": ">=3.0.0",
+        "react": ">=16.8.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.3.3",
+        "@babel/preset-react": "^7.10.4"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ]
+    },
+    "keywords": [
+        "ink",
+        "focus",
+        "terminal",
+        "term",
+        "console",
+        "command-line",
+        "react",
+        "component"
+    ]
+}
