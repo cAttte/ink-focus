@@ -2,6 +2,8 @@
 
 An [Ink](https://github.com/vadimdemedes/ink) component to manage element focus and _ease your mind_.
 
+<img src="term/main.svg" width="66%" />
+
 ## Installation
 
 ```
